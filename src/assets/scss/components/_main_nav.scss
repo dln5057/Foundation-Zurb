@@ -1,0 +1,91 @@
+.main_nav {
+  padding: 30px 0;
+}
+
+.pool_logo {
+  padding-top: 6px;
+}
+
+.logo {
+  width: 45%;
+  margin-left: 20%;
+}
+
+.nav-links {
+  text-align: right;
+  padding-right: 100px;
+  margin-top: 14px;
+}
+
+.nav-links a {
+  padding-right: 40px;
+}
+
+.find_pro {
+  padding-top: 4px;
+}
+
+.find_pro a {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.find_pro img {
+  width: 15px;
+  margin-right: 6px;
+}
+
+.title-bar {
+  background-color: #fff;
+  width: 66px;
+  padding: 0;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.mobile-icon img {
+}
+
+
+@media (max-width:480px) {
+  .main_nav {
+    padding: 0px;
+    height: 66px;
+  }
+
+  .pool_logo {
+    padding-top: 20px;
+  }
+
+  .logo {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .nav-links {
+    text-align: left;
+    padding-right: 0;
+    position: absolute;
+    background-color: #1779ba;
+    top: 53px;
+    left: 10px;
+  }
+
+  .nav-links a {
+    padding-right: 5px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding-top: 7px;
+    padding-bottom: 5px;
+  }
+
+  .find_pro {
+    padding-top: 11px;
+  }
+
+  .find_pro a {
+    float: left;
+  }
+}

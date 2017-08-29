@@ -1,0 +1,63 @@
+.top_nav {
+  background-color: #083d8b;
+  text-align: right;
+}
+
+.dealers {
+  padding-right: 18px;
+}
+
+.commercial {
+  padding-right: 5px;
+}
+
+.top_nav a {
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 3;
+}
+
+.top_nav img {
+  width: 11px;
+  margin-right: 115px;
+}
+
+
+@media (max-width:480px) {
+  .top_nav {
+    display: none;
+  }
+  .bottom_nav {
+    background-color: #216cdf;
+    text-align: center;
+    padding-top: 7px;
+  }
+
+  .bottom_nav a {
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .bottom_nav img {
+    width: 11px;
+  }
+
+  .dealers {
+    padding-right: 0px;
+  }
+
+  .bar_divide {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .footer_horizonal {
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+}

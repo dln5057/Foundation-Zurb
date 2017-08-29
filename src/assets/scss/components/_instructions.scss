@@ -1,0 +1,60 @@
+.choosing_pro {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.instructions {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.instructions img {
+  width: 20%;
+  float: left;
+  margin-right: 20px;
+}
+
+.instruction_summary {
+  overflow: hidden;
+  width: 74%;
+  margin-top: 4px;
+}
+
+.step {
+  margin-bottom: 0;
+  color: #083d8c;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.step_details {
+  font-size: 14px;
+  color: #797979;
+  width: 100%;
+}
+
+.water_img {
+  height: 158px;
+  background-image: url("../img/water-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.instruction_divider {
+  width: 91%;
+  margin: .5rem auto;
+}
+
+@media (max-width: 480px) {
+  .choosing_pro {
+    margin: 0 !important;
+    padding-top: 24px;
+  }
+
+  .instructions {
+    padding-top: 6px;
+    padding-bottom: 0;
+  }
+}
