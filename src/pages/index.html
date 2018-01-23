@@ -24,7 +24,7 @@
     <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
       <button class="mobile-icon" type="button" data-toggle="example-menu"><img src="../assets/img/menu-icon-mobile.png" alt=""></button>
       <div class="title-bar-title"></div>
-  </div>
+    </div>
   </div>
 
 
@@ -73,13 +73,24 @@
 
   <div class="grid-x grid-margin-x">
     <div class="large-12 cell filter">
-      <div class="dealer_number"></div>
+      <div class="dealer_number">brown</div>
+
       <div class="filter_results">
-        <p class="filter-title">Filter Results</p>
-        <p><a class="button tiny filter_buttons" id="getdata-button"></a>Service</p>
-        <p><a class="button tiny filter_buttons" ></a>Installation</p>
-        <p><a class="button tiny filter_buttons" href="#"></a>Residential</p>
-        <p><a class="button tiny filter_buttons" href="#"></a>Commercial</p>
+        <p class="filter_title">Filter Results</p>
+        <div class="result_button" data-responsive-toggle="example-service" data-hide-for="medium">
+          <button class="mobile_filter_icon" type="button" data-toggle="example-service"> &#9660; </button>
+        </div>
+        <div class="filter_tabs" id="example-service">
+          <p class="filter_options"><a class="button tiny filter_buttons" id="getdata-button"></a>Service</p>
+          <p class="filter_options"><a class="button tiny filter_buttons" ></a>Installation</p>
+          <p class="filter_options"><a class="button tiny filter_buttons" href="#"></a>Residential</p>
+          <p class="filter_options"><a class="button tiny filter_buttons" href="#"></a>Commercial</p>
+        </div>
+      </div>
+    </div>
+    <div class="company_list large-12 cell">
+      <div class="company lar">
+
       </div>
     </div>
   </div>
