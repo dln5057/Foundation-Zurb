@@ -13,6 +13,16 @@ $(document).foundation().ready( function(){
   $("#getdata-button").click(function() {
     console.log("reading read_data!!");
     $.getJSON("../assets/json/dealers.json", function(data) {
+      document.getElementById("")
+
+
+
+
+
+
+
+
+
 
         //individual dealer array
       var dealers = data.dealers;
